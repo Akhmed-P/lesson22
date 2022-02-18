@@ -1,0 +1,102 @@
+.conteiner
+  max-width: 312px 
+  margin: 0 auto
+
+header
+  background-image: url(../img/header_fon.jfif)
+  background-size: cover
+  // height: 304px
+  background-position: center center
+  position: relative  
+  z-index: -2
+  margin: 0 auto
+
+
+header::before
+  content: ""
+  background-color: rgba(198, 108, 73, 0.4)
+  position: absolute
+  top: 0
+  bottom: 0
+  right: 0
+  left: 0 
+  z-index: -1   
+
+.navbar
+  padding-top: 41px
+  padding-bottom: 60px
+  display: flex
+  position: relative
+  h2
+   font-family: Libre Franklin
+   font-style: normal
+   font-weight: bold
+   font-size: 24px
+   line-height: 29px
+   color: #FFFFFF
+   margin: 0 auto
+.header
+  padding-bottom: 50px
+  h1
+   font-family: Libre Franklin;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 20px;
+   line-height: 24px;
+   display: flex;
+   align-items: center;
+
+   color: #FFFFFF;  
+  
+  p
+   font-family: Libre Franklin;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 16px;
+   /* identical to box height */
+
+
+   color: #FFFFFF;
+   margin-top: 20px
+   margin-bottom: 40px
+
+  a
+   font-family: Libre Franklin;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 16px;
+   /* identical to box height */
+
+   text-decoration-line: underline;
+
+   color: #FFFFFF;
+
+ 
+    
+
+.burger
+  width: 24px
+  height: 24px
+  display: flex
+  flex-direction: column
+  justify-content: space-around
+
+  &_span
+    width: 24px
+    height: 1.5px
+    background-color: #fff
+    display: block
+
+
+.menu
+  display: flex
+  flex-direction: column     
+  position: absolute 
+  left: 40px
+  display: none
+  a
+    color: #fff
+  
+  

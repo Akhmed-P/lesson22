@@ -1,0 +1,867 @@
+.conteiner {
+  max-width: 312px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url(../img/header_fon.jfif);
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  z-index: -2;
+  margin: 0 auto;
+}
+
+header::before {
+  content: "";
+  background-color: rgba(198, 108, 73, 0.4);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.navbar {
+  padding-top: 41px;
+  padding-bottom: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.navbar h2 {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  margin: 0 auto;
+}
+
+.header {
+  padding-bottom: 50px;
+}
+
+.header h1 {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFFFFF;
+}
+
+.header p {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #FFFFFF;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.header a {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #FFFFFF;
+}
+
+.burger {
+  width: 24px;
+  height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.burger_span {
+  width: 24px;
+  height: 1.5px;
+  background-color: #fff;
+  display: block;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  left: 40px;
+  display: none;
+}
+
+.menu a {
+  color: #fff;
+}
+
+.data_about h2 {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  /* Gray 1 */
+  color: #333333;
+}
+
+.data_about p:nth-of-type(1) {
+  text-align: justify;
+  margin-bottom: 11px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: justify;
+  /* Gray 1 */
+  color: #333333;
+}
+
+.data_about p:nth-of-type(2) {
+  text-align: justify;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: justify;
+  /* Gray 1 */
+  color: #333333;
+  padding-bottom: 26px;
+}
+
+.skills {
+  background-color: #FFFAF2;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.skills .conteiner h2 {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  /* Gray 1 */
+  color: #333333;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.skills .skills_img {
+  text-align: center;
+}
+
+.skills .skills_img img {
+  padding-bottom: 26px;
+}
+
+.skills_data1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.skills_data1 span {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 25px;
+  /* identical to box height, or 208% */
+  /* Gray 1 */
+  color: #333333;
+}
+
+.skills_data1 p {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 25px;
+  /* identical to box height, or 208% */
+  /* Gray 1 */
+  color: #333333;
+}
+
+.skills__data2 div:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skills__data2 div:nth-child(2) span {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 25px;
+  /* identical to box height, or 208% */
+  /* Gray 1 */
+  color: #333333;
+}
+
+.skills__data2 div:nth-child(2) div {
+  background-color: #C66C49;
+  width: 211px;
+  height: 18px;
+  position: relative;
+}
+
+.skills__data2 div:nth-child(2) div::after {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 19px;
+  left: 132px;
+  background: #F5D6AB;
+}
+
+.skills__data2 div:nth-child(3) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skills__data2 div:nth-child(3) span {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 25px;
+  /* identical to box height, or 208% */
+  /* Gray 1 */
+  color: #333333;
+}
+
+.skills__data2 div:nth-child(3) p {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 25px;
+  /* identical to box height, or 208% */
+  /* Gray 1 */
+  color: #333333;
+  padding-right: 30px;
+}
+
+.skills__data2 div:nth-child(4) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skills__data2 div:nth-child(4) span {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 25px;
+  /* identical to box height, or 208% */
+  /* Gray 1 */
+  color: #333333;
+}
+
+.skills__data2 div:nth-child(4) div {
+  background-color: #C66C49;
+  width: 211px;
+  height: 18px;
+  position: relative;
+}
+
+.skills__data2 div:nth-child(4) div::after {
+  content: "";
+  position: absolute;
+  width: 45px;
+  height: 19px;
+  left: 167px;
+  background: #F5D6AB;
+}
+
+.skills__data2 div:nth-child(5) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skills__data2 div:nth-child(5) span {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 25px;
+  /* identical to box height, or 208% */
+  /* Gray 1 */
+  color: #333333;
+}
+
+.skills__data2 div:nth-child(5) p {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 25px;
+  /* identical to box height, or 208% */
+  /* Gray 1 */
+  color: #333333;
+  padding-right: 26px;
+}
+
+.skills__data2 div:nth-child(6) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skills__data2 div:nth-child(6) span {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 25px;
+  /* identical to box height, or 208% */
+  /* Gray 1 */
+  color: #333333;
+}
+
+.skills__data2 div:nth-child(6) div {
+  background-color: #C66C49;
+  width: 211px;
+  height: 18px;
+  position: relative;
+}
+
+.skills__data2 div:nth-child(6) div::after {
+  content: "";
+  position: absolute;
+  width: 31px;
+  height: 19px;
+  left: 181px;
+  background: #F5D6AB;
+}
+
+.skills__data2 div:nth-child(7) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skills__data2 div:nth-child(7) span {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 25px;
+  /* identical to box height, or 208% */
+  /* Gray 1 */
+  color: #333333;
+}
+
+.skills__data2 div:nth-child(7) p {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 25px;
+  /* identical to box height, or 208% */
+  /* Gray 1 */
+  color: #333333;
+  padding-right: 95px;
+}
+
+.portfolio_box {
+  display: none;
+}
+
+.portfolio_box .portfolio_data {
+  text-align: center;
+}
+
+.portfolio_box .portfolio_data h2 {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  /* Gray 1 */
+  color: #333333;
+  padding-top: 50px;
+  padding-bottom: 19px;
+}
+
+.portfolio_box .portfolio_data h3 {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
+  /* identical to box height, or 179% */
+  /* Gray 1 */
+  color: #333333;
+  margin-bottom: 15px;
+}
+
+.portfolio_box .portfolio_data p {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  /* Gray 1 */
+  color: #333333;
+}
+
+.portfolio__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (min-width: 370px) {
+  .conteiner {
+    max-width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .skills__data2 {
+    width: 309px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 700px) {
+  .header {
+    margin: 0 auto;
+    width: 217px;
+  }
+  .skills__data2 {
+    width: 309px;
+    margin: 0 auto;
+  }
+  .skills_img img {
+    padding-right: 0px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .conteiner {
+    max-width: 1110px;
+  }
+  header {
+    max-width: 1440px;
+  }
+  header::before {
+    content: "";
+    background-color: rgba(198, 108, 73, 0.294);
+  }
+  .navbar {
+    padding-top: 93px;
+    padding-bottom: 145px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .navbar h2 {
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #FFFFFF;
+    margin: 0;
+  }
+  .header {
+    padding-bottom: 240px;
+    width: 693px;
+    margin: 0;
+  }
+  .header h1 {
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 78px;
+    /* identical to box height */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #FFFFFF;
+  }
+  .header p {
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 106px;
+  }
+  .header a {
+    ont-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    color: #FFFFFF;
+  }
+  .burger {
+    display: none;
+  }
+  .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: static;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 529px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  a {
+    text-decoration: none;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #FFFFFF;
+  }
+  .data_about {
+    padding-bottom: 115px;
+  }
+  .data_about h2 {
+    padding-right: 1100px;
+    padding-top: 93px;
+    padding-bottom: 76px;
+  }
+  .data_about p {
+    font-size: 18px;
+    line-height: 30px;
+    background-color: black;
+  }
+  .skills_img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .skills_img img {
+    width: 350px;
+    margin-bottom: 145px;
+    padding-right: 30px;
+  }
+  .skills_data1 {
+    -webkit-box-ordinal-group: 11;
+        -ms-flex-order: 10;
+            order: 10;
+    padding-bottom: 65px;
+  }
+  .skills_data1 span {
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+    /* Gray 1 */
+    color: #333333;
+  }
+  .skills_data1 p {
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+    /* Gray 1 */
+    color: #333333;
+    padding-right: 106px;
+  }
+  .skills__data2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .skills .conteiner h2 {
+    padding-right: 1100px;
+    padding-top: 93px;
+    padding-bottom: 76px;
+  }
+  .skills__data2 {
+    width: 637px;
+  }
+  .skills__data2 div:nth-child(2) {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  .skills__data2 div:nth-child(2) span {
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+    /* Gray 1 */
+    color: #333333;
+  }
+  .skills__data2 div:nth-child(2) div {
+    width: 422px;
+    height: 24px;
+  }
+  .skills__data2 div:nth-child(2) div::after {
+    content: "";
+    position: absolute;
+    width: 160px;
+    height: 25px;
+    left: 264px;
+  }
+  .skills__data2 div:nth-child(3) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .skills__data2 div:nth-child(3) span {
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+    /* Gray 1 */
+    color: #333333;
+  }
+  .skills__data2 div:nth-child(3) p {
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+    /* Gray 1 */
+    color: #333333;
+    padding-right: 150px;
+  }
+  .skills__data2 div:nth-child(4) {
+    -webkit-box-ordinal-group: 6;
+        -ms-flex-order: 5;
+            order: 5;
+    padding-bottom: 20px;
+  }
+  .skills__data2 div:nth-child(4) span {
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+    /* Gray 1 */
+    color: #333333;
+  }
+  .skills__data2 div:nth-child(4) div {
+    width: 422px;
+    height: 24px;
+  }
+  .skills__data2 div:nth-child(4) div::after {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 25px;
+    left: 334px;
+  }
+  .skills__data2 div:nth-child(5) {
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
+    padding-bottom: 20px;
+  }
+  .skills__data2 div:nth-child(5) span {
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+    /* Gray 1 */
+    color: #333333;
+  }
+  .skills__data2 div:nth-child(5) p {
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+    /* Gray 1 */
+    color: #333333;
+    padding-right: 146px;
+  }
+  .skills__data2 div:nth-child(6) {
+    -webkit-box-ordinal-group: 8;
+        -ms-flex-order: 7;
+            order: 7;
+    padding-bottom: 20px;
+  }
+  .skills__data2 div:nth-child(6) span {
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+    /* Gray 1 */
+    color: #333333;
+  }
+  .skills__data2 div:nth-child(6) div {
+    width: 422px;
+    height: 24px;
+  }
+  .skills__data2 div:nth-child(6) div::after {
+    content: "";
+    position: absolute;
+    width: 62px;
+    height: 25px;
+    left: 362px;
+  }
+  .skills__data2 div:nth-child(7) {
+    -webkit-box-ordinal-group: 7;
+        -ms-flex-order: 6;
+            order: 6;
+    padding-bottom: 20px;
+  }
+  .skills__data2 div:nth-child(7) span {
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+    /* Gray 1 */
+    color: #333333;
+  }
+  .skills__data2 div:nth-child(7) p {
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+    /* Gray 1 */
+    color: #333333;
+    padding-right: 248px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .skills_img img {
+    padding-right: 127px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
